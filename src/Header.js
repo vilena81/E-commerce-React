@@ -1,21 +1,44 @@
 import { Link } from "react-router-dom";
+import React, { useState } from 'react';
+import img from './nk.png'
 
-export default function Header(){
-    return(
+
+
+export default function Header() {
+    
+    
+    return (
         <div className="header">
-            <ul>
-                <li className="home">
-                    <Link to="/">Home</Link>
-                </li>
-                
-                <li className="products">
-                    <Link to="/products">Products</Link>
-                </li>
-                <li className="contact">
-                    <Link to="/contacts">Contacts</Link>
-                </li>
+            <div >
+                <Link to="/"><img src={img} className="logo-nike" /></Link>
+            </div>
 
-            </ul>
+            <div className="nav">
+                <ul className="nav-list">
+                    <li className="home">
+                        <Link to="/"></Link>
+                    </li>
+
+                    <li className="about">
+                        <Link to="/about">About Us</Link>
+                    </li>
+                    <li className="contact">
+                        <Link to="/contacts">Contacts</Link>
+                    </li>
+                </ul>
+            </div>
+
+
+            <div>
+               <input placeholder="search" className="input"></input>
+                <Link to="/basket"><img src="basket.png"  className="baskt"/> </Link>
+
+            </div>
+
         </div>
     )
 }
+
+
+
+

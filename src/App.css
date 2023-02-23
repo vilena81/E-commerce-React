@@ -1,37 +1,199 @@
-.images{
-    width: 250px;
-    height: 350px;
-}
-.main{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    background-color: rgb(230, 230, 239);
-    padding: 40px;
-}
-.text_box{
-    text-align: center;
-    padding: 10px;
-    
-}
-.text_box p, h2{
-   color: rgb(14, 14, 55); 
-}
-.prod-items{
-    text-align: center;
-    padding: 30px;
-    padding-left: 50px;
-    padding-right: 50px;
-    background-color: rgb(239, 239, 247);
-    
-}
-/* .prod-item{
-   color: rgb(57, 57, 95); 
-}
 
-.images{
-    border-radius: 10px;
+/* HEADER */
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: rgb(237, 238, 241);
+    position: relative;
+    position: sticky;
+    top: 0;
+}
+.logo-nike,
+.heartlogo,
+.shoppinglogo {
+    height: 50px;
+    width: 50px;
+}
+.logo-nike{
+    margin-left: 50px;
+}
+.header ul,
+.headernav {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+.nav-list li {
+    list-style: none;
+}
+.nav-list li a {
+    text-decoration: none;
+    color: rgb(16, 16, 16);
+}
+.contact:hover{
+    scale: 1.1;
+}
+.about:hover{
+    scale: 1.1;
+}
+.nav-list {
+    display: flex;
+    gap: 30px;
+}
+.images,
+.basket-img {
+    width: 250px;
+    height: 300px;
 }
 .images:hover{
     scale: 1.1;
-} */
+}
+
+
+/* MAIN */
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgb(249, 249, 252);
+    padding: 40px;
+}
+.text_box {
+    text-align: center;
+    padding: 10px;
+}
+.text_box p,
+h2 {
+    color: rgb(14, 14, 55);
+}
+.text_box {
+    text-align: center;
+    padding: 10px;
+}
+.title{
+    text-decoration: none;
+    color: rgb(63, 63, 87);
+}
+.title:hover{
+    scale: 1.1;
+}
+.text_box p,
+h2 {
+    color: rgb(14, 14, 55);
+}
+.logo,
+.heartlogo,
+.shoppinglogo {
+    width: 50px;
+    height: 40px;
+}
+
+.input {
+    border-radius: 20px;
+    height: 20px;
+    margin-top: 10px;
+    opacity: 0.5;
+    padding-left: 20px;
+}
+
+.btn {
+    text-shadow: 0px 2px 2px lightgray;
+}
+.basket {
+    float: right;
+    cursor: pointer;
+    gap: 40px;
+}
+.card{
+    padding: 20px;
+}
+
+
+
+
+/* FOOTER */
+.footer-png ul li img {
+    width: 40px;
+    height: 40px;
+}
+
+.footer-png ul li img:hover {
+    width: 50px;
+    height: 50px;
+    opacity: 0.8;
+}
+
+.footer-png ul {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    list-style: none;
+
+}
+
+.footer-png {
+    padding: 10px;
+
+}
+
+.basket-comp {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.baskt {
+    height: 50px;
+    width: 50px;
+    float: right;
+    cursor: pointer;
+}
+
+.baskt:hover {
+    scale: 1.1;
+}
+
+.aboutus{
+    text-align: center;
+    padding: 80px 150px;
+    font-size: 20px;
+    
+}
+.aboutus p{
+    color: rgb(16, 16, 26);
+    margin-top: 60px;
+}
+.copy{
+    display: flex;
+    justify-content: end;
+}
+/* products */
+.images{
+    margin-left: 50px;
+}
+.prod-items {
+    text-align: center;
+    padding: 30px;
+    padding-left: 60px;
+    padding-right: 60px;
+    background-color: rgb(239, 239, 247);
+    color: rgb(57, 57, 95);
+}
+/* contact */
+.contact{
+    padding-left: 50px;
+}
+.coment{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: rgb(15, 0, 125);
+}
+.area{
+    margin-top: 10px;
+}
+.bags h1, h4{
+    color: rgb(42, 42, 129);
+    
+}
