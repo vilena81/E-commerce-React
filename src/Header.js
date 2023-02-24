@@ -31,7 +31,7 @@ export default function Header() {
 
             <div>
                <input placeholder="search" className="input"></input>
-                <Link to="/basket"><img src="basket.png"  className="baskt"/> </Link>
+                <Link to="/basket"><img src="basket.png"  className="basket-logo"/> </Link>
 
             </div>
 

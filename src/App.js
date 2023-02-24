@@ -1,9 +1,7 @@
 
 import { Route, Routes, Link } from 'react-router-dom';
 import './App.css';
-
 import Contacts from './Contacts';
-// import Data from './Data';
 import Header from './Header';
 import Main from "./Main"
 import Product from './Product';
